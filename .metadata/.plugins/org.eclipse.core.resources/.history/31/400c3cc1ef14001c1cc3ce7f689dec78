@@ -1,0 +1,31 @@
+package co.com.sebas.reactiva;
+
+import rx.Observable;
+
+public class Observables {
+
+	public static void main(String[] args) {
+		Integer[] numeros = {1, 5, 123, 143, 86, 800, 45, 900};
+		
+//		Observable.empty();
+//		Observable.just("Algo");
+//		Observable.just("esto", "y esto", "y esto");
+		
+//		System.out.println(numeros);
+		Observable.from(numeros)
+					//.filter(x -> x > 100 && x < 500)
+					//.first()	// El primero
+					//.last()	// El ultimo
+					//.take(3)	// Los primeros (n) elementos
+					//.skip(3)	// Omite los (n) elementos
+					//.skipLast(3)// Omite los ultimos (n)
+					.map(x -> Math.pow(x, 2))
+					.subscribe(x -> System.out.println("Este es el numero: " + x));
+
+	}
+
+}
+
+class Coord {
+	double x, y;
+}

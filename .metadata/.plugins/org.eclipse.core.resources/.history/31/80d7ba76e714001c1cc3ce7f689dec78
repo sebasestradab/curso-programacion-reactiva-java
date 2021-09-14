@@ -1,0 +1,18 @@
+package co.com.sebas.reactiva;
+
+import rx.Observable;
+
+public class Observables {
+
+	public static void main(String[] args) {
+		Integer[] numeros = {1, 5, 123, 143, 86, 800, 45, 900};
+		
+//		Observable.empty();
+//		Observable.just("Algo");
+//		Observable.just("esto", "y esto", "y esto");
+		
+		Observable.from(numeros).subscribe(x -> System.out.println("Este es el numero: " + x));
+
+	}
+
+}

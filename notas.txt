@@ -1,0 +1,100 @@
+Predicate: Para tom
+Consumer: Anidar la ejecucion de diferentes funcionalidades
+
+new Inmueble(2000, 100, 3, true, 'A'};
+new Inmueble(2012, 60, 2, true, 'B'};
+new Inmueble(1980, 120, 4, false,'A'};
+new Inmueble(2005, 75, 3, true, 'B'};
+new Inmueble(2015, 90, 2, false, 'A'};
+
+Clase 1
+Caracteristicas de la programacion funcional
+Recursividad
+
+Clase 2
+expresiones lambda: funciones anonimas que no tienen nombre, no pertenecen a una clae, tiene una sintaxis basica
+
+Inmutabilidad
+
+Funciones Puras: Son funciones, que dados el(los) mismo(s) parametro(s) siempre, no importa de donde y las veces que se llame retorna el mismo resultado. 
+
+Clase 3
+Memoización: Manejar en memoria (Map) valores para despues consultarlos y evitar volver a ejecutar codigo.
+
+Clase 4
+Se solucionó puntos del taller
+
+
+Clase 5.
+	Interfaz Suplier: Retorna informacion.
+
+	Interfaz Function: Recibe 2 tipos de datos, el primero de un tipo y el segundo es para definir el tipo del retorno.
+		* Permiten encadenar llamados a otras funciones, pero deben de cumplir una regla, la entrada de la siguiente funcion a ejecutar debe ser la salida de la funcion anterior.
+
+		* System.out.println(longitud.andThen(doble).andThen(cadena).apply("1234567"));
+
+	Interfaz BiFunction: tiene 3 tipos de datos, los 2 primeros son para trabajar con sus argumentos y el tecer parametro define el tipo de retorno.
+
+	UnaryOperator: Hereda de Function, la diferencia es que los 2 argumentos son del mismo tipo.
+
+	usoBinaryOperator: Patrecido a UnaryOperator, extiende de BiFunction
+
+	Funciones de Orden Superior o de Primer Orden
+		* Son aquellas que tienen una funcion como parametro o como retorno.
+
+	Currificacion
+		Filosofia ligada a programacion funcional. Si tienes una funcion de 2 parametros la puedes transformar en una funcion que 
+		
+	Clase Optional
+		Para evitar el error de NullPointerException
+
+Clase 6
+Stream: Es un flujo de datos.
+	stream().
+		.forEach --> Recorre cada elemento de la lista
+		
+		.filter --> Filtra el arreglo de acuerdo a la condicion (Predicate)
+		
+		.map --> Recorre cada elemento y lo transforma sin modificar el original
+		
+		.reduce --> retorna un unico valor de acuerdo a como se procesan todos los elementos
+
+		match
+			.anyMatch --> Si almenos uno cumple la condiion retorna true
+			.noneMatch --> Verifica que todos los elementos no cumplan el Predicate
+			.allMatch --> Si todos coinciden con el predicado (Predicate)
+	
+Clase 7
+	Colectores
+		colectoresBasicos: Premiten hacer operaciones sencillas.
+		
+		colectoresColeccion: Permiten pasar de un stream a una coleccion (Map, List, Set).
+		
+		colectoresAgrupamiento: Permite obtener un resultado clasificado, permite obtener por ejemplo un mapa con ciertas caracteristicas.
+
+
+Clase 11
+	Programacionm Reactiva
+		* Es un paradigma que se enfoca en el trabajo con flujos de datos, se trabajan de forma asincrona.
+		* No esta orientado a procesos sino a eventos, va a estar OBSERVANDO algo que me interesa y recciona a algun cambio que se presente.
+		* Por lo general no se utiliza para proyectos de tamaño pequeño, sino para proyectos que manejan alta cantidad de datos.
+		* Tiene 4 pilares fundamentales: Escalable - Resiliente- Orientado a Eventos - Sensible
+			- Sensible (responsivo): Tener las respuestas adecuadas, asegurar que mi setrvicio va a responder en el tiempo y la estructura correcta.
+			- Escalable: Pueda manejar tanto un volumen pequeño como uno grande.
+			- Resiliente: 
+			- Orientado a eventos: 
+			
+		Algunas de las librearias que utilizan son ReactiveX y Project Reactor (Webflux)
+		
+		https://github.com/ReactiveX/RxJava/wiki/Alphabetical-List-of-Observable-Operators
+		
+
+
+
+
+
+
+
+
+
+
