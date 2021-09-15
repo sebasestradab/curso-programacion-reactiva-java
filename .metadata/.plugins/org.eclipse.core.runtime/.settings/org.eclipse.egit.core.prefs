@@ -1,3 +1,4 @@
-GitRepositoriesView.GitDirectories=
-GitRepositoriesView.GitDirectories.relative=
+GitRepositoriesView.GitDirectories=S\:\\Desarrollo\\Cursos\\Java\\curso-programacion-reactiva-java\\.git;
+GitRepositoriesView.GitDirectories.relative=.git;
+core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

@@ -88,8 +88,15 @@ Clase 11
 		
 		https://github.com/ReactiveX/RxJava/wiki/Alphabetical-List-of-Observable-Operators
 		
-
-
+Clase 12
+	
+	Mono: Para un elemento
+	Flux: Para varios elementos.
+		Se tienen operadores para tratar los datos
+		
+		.merge --> Concatena los flujos y produce solo uno
+		.zip --> genera un flujo del tamaño mas pequeño de los flujos
+	El metodo subscribe es lo que se ejecuta de cada elemento cada que se procesa un elemento.
 
 
 
