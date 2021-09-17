@@ -98,9 +98,12 @@ Clase 12
 		.zip --> genera un flujo del tamaño mas pequeño de los flujos
 	El metodo subscribe es lo que se ejecuta de cada elemento cada que se procesa un elemento.
 
+Clase 13
+	Con el flux cada que se procesa un elemento en el servicio rest se va mostrando en el navegador segun el ejercicio que hicimos con los servicios REST y Spring.
+	
+	mongod --dbpath C:\Programas\mongodb\data\db
 
-
-
+	https://www.geeksforgeeks.org/mongoose-findbyidandupdate-function/
 
 
 

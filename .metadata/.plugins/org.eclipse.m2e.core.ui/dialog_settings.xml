@@ -19,6 +19,8 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="S:\Desarrollo\Cursos\Java\curso-programacion-reactiva-java\Ejercicio-webflux"/>
+			<item value="S:\Desarrollo\Cursos\Java\curso-programacion-reactiva-java\Ejemplo-mongo"/>
 			<item value="S:\Desarrollo\Cursos\Java\curso-programacion-reactiva-java\Ejemplo-webflux"/>
 		</list>
 		<list key="projectNameTemplate">
